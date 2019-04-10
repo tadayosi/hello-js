@@ -3,6 +3,7 @@ const url = require('url');
 
 let server = http.createServer((request, response) => {
   let name = url.parse(request.url, true).query.name;
+  console.log('received: name =', name);
   if (!name) {
     name = request.connection.remoteAddress
   }
