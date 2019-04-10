@@ -4,10 +4,14 @@ A minimal docker image of Node.js Hello World application.
 
 ## Build
 
-    yarn build
+    yarn docker-build
 
-## Run
+## Run on Docker
 
-    yarn run-app
+    yarn docker-run
 
     curl http://localhost:8080?name=World
+
+## Run locally
+
+    yarn local-run

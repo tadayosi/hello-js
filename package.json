@@ -2,8 +2,9 @@
   "name": "hello-js",
   "private": true,
   "scripts": {
-    "build": "docker build -t tadayosi/hello-js .",
-    "run-app": "docker run -d -p 8080:8080 tadayosi/hello-js",
-    "push": "docker push tadayosi/hello-js"
+    "docker-build": "docker build -t tadayosi/hello-js .",
+    "docker-run": "docker run -d -p 8080:8080 tadayosi/hello-js",
+    "docker-push": "docker push tadayosi/hello-js",
+    "local-run": "node ."
   }
 }
