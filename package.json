@@ -1,5 +1,6 @@
 {
   "name": "hello-js",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docker-build": "docker build -t tadayosi/hello-js .",
